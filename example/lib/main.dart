@@ -16,7 +16,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(title: Text('Launch App Review')),
         body: Center(
-          child: RaisedButton(
+          child: ElevatedButton(
             child: Text("Rate App"),
             onPressed: () => LaunchReview.launch(
               androidAppId: "com.iyaffle.kural",
